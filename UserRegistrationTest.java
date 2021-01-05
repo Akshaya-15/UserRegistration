@@ -42,4 +42,35 @@ public void  TestpasswordR1(boolean Result) {
 	assertTrue(Result);
 
 }
+
+
+//@test
+
+public void  TestpasswordR2(boolean Result) {
+	UserRegistation obj =new UserRegistation();
+	assertTrue(Result);
+
 }
+
+
+//@test
+
+public void TestpasswordR3(boolean Result) {
+	UserRegistation obj =new UserRegistation();
+	assertTrue(Result);
+}
+//@test
+public void TestpasswordR4(boolean Result) {
+	UserRegistation obj =new UserRegistation();
+	assertTrue(Result);
+}
+
+
+//@test
+public void  TestemailSample(boolean Result) {
+	UserRegistation obj =new UserRegistation();
+	assertTrue(Result);
+}
+}
+
+

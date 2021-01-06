@@ -300,4 +300,9 @@ public static void firstName1() {
 
 }
 
+public boolean UC9(String emailCheck) {
+	// TODO Auto-generated method stub
+	return false;
+}
+
 }

@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import java.lang.String;
 
 
-//@test
+
 public class UserRegistrationTest {
 	
 	private static final String UserResitation = null;
@@ -16,27 +16,27 @@ public class UserRegistrationTest {
 	}
 
 
-//@test
+@test
 public void TestlastName(boolean Result) {
 	UserRegistation obj =new UserRegistation();
 	assertTrue(Result);
 }
 
 
-//@test
+@test
 public void  Testemail(boolean Result) {
 	UserRegistation obj =new UserRegistation();
 	assertTrue(Result);
 }
 
 
-//@test
+@test
 public void  Testphonenum(boolean Result) {
 	UserRegistation obj =new UserRegistation();
 	assertTrue(Result);
 }
 
-//@test
+@test
 public void  TestpasswordR1(boolean Result) {
 	UserRegistation obj =new UserRegistation();
 	assertTrue(Result);
@@ -44,7 +44,7 @@ public void  TestpasswordR1(boolean Result) {
 }
 
 
-//@test
+@test
 
 public void  TestpasswordR2(boolean Result) {
 	UserRegistation obj =new UserRegistation();
@@ -53,20 +53,20 @@ public void  TestpasswordR2(boolean Result) {
 }
 
 
-//@test
+@test
 
 public void TestpasswordR3(boolean Result) {
 	UserRegistation obj =new UserRegistation();
 	assertTrue(Result);
 }
-//@test
+@test
 public void TestpasswordR4(boolean Result) {
 	UserRegistation obj =new UserRegistation();
 	assertTrue(Result);
 }
 
 
-//@test
+@test
 public void  TestemailSample(boolean Result) {
 	UserRegistation obj =new UserRegistation();
 	assertTrue(Result);

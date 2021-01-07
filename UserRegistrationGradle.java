@@ -1,3 +1,4 @@
+ 
 package RegexPattern1;
 
 import java.util.regex.Matcher;
@@ -32,8 +33,8 @@ public class UserRegistrationGradle {
 
 //uc2
 public static String Uc2  (String laststNameuserInput) throws UserRegistationException {
-	 Pattern firstName = Pattern.compile("^[[:upper:]]{1}[[:lower:]]{3,}$");
-     Matcher match = firstName.matcher("Ads");
+	 Pattern lastName = Pattern.compile("^[[:upper:]]{1}[[:lower:]]{3,}$");
+     Matcher match = lastName.matcher("Ads");
      boolean patternvalidity =match.matches();
      try {
      
@@ -57,8 +58,8 @@ public String uc2(String string) {
 //UC3
 
 public static String Uc3 (String emialuserInput) throws UserRegistationException {
-	 Pattern firstName = Pattern.compile("^[a-zA-Z]{3}\\\\.[a-zA-Z]{1}@[a-zA-Z]{2}\\\\.([a-zA-Z]{2}\\\\.[a-zA-Z]{1,}$");
-     Matcher match = firstName.matcher("abc.xyz@bl.co.in");
+	 Pattern email = Pattern.compile("^[a-zA-Z]{3}\\\\.[a-zA-Z]{1}@[a-zA-Z]{2}\\\\.([a-zA-Z]{2}\\\\.[a-zA-Z]{1,}$");
+     Matcher match =email.matcher("abc.xyz@bl.co.in");
      boolean patternvalidity =match.matches();
      try {
      
@@ -79,8 +80,8 @@ public String uc3(String string) {
 }
 
 public static String Uc4 (String phonenumuserInput) throws UserRegistationException {
-	 Pattern firstName = Pattern.compile("^[91+][[:space:]][0-9]$");
-    Matcher match = firstName.matcher("91+ 9821353995");
+	 Pattern phonenum= Pattern.compile("^[91+][[:space:]][0-9]$");
+    Matcher match = phonenum.matcher("91+ 9821353995");
     boolean patternvalidity =match.matches();
     try {
     
@@ -101,8 +102,8 @@ public String uc4(String string) {
 }
 
 public static String Uc5 (String passwordR1Input) throws UserRegistationException {
-	 Pattern firstName = Pattern.compile("^[a-zA-Z0-9]{8,}$");
-    Matcher match = firstName.matcher("abc.xyz@bl.co.in");
+	 Pattern passwordR1= Pattern.compile("^[a-zA-Z0-9]{8,}$");
+    Matcher match = passwordR1.matcher("abc.xyz@bl.co.in");
     boolean patternvalidity =match.matches();
     try {
     
@@ -122,3 +123,4 @@ public String uc5(String string) {
 	return null;
 }
 }
+
